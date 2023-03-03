@@ -1,0 +1,92 @@
+body {
+   background: linear-gradient(#f26419, #f6ae2d);
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Happy Monkey', cursive;
+   text-align: center; 
+}
+
+#header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+h1, h2, h3, h4, p {
+   text-shadow: 0px 0px 1px black;
+}
+
+#bff-img {
+   width: 150px;
+   border: 6px solid #086375;
+   border-radius: 50%;
+}
+
+#bday-age {
+   background: #086375;
+   border-radius: 5px;
+   margin: 5px 0 10px 0;
+   padding: 5px 10px;
+}
+
+#bday-date {
+   background: #086375;
+   border-radius: 5px;
+   margin: 0;
+   padding: 5px 10px;
+}
+
+.gift-section {
+   margin-top: 50px;
+}
+
+.gift-title {
+   margin-bottom: 10px;
+}
+
+.gift-img {
+   background: #DC2F02;
+   background-image: url("https://th.bing.com/th/id/R.b09dac821ab131b1a77da82557b03053?rik=YKVA1jXghY5wXA&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f15%2fBirthday-Present-Boxes-PNG.png&ehk=xE631%2fDeU6uBxUgO7Rc%2fM0%2fv72jQk0%2fz%2fhi8hym8ouY%3d&risl=&pid=ImgRaw&r=0");
+   background-size: cover;
+   height: 400px;
+   width: 400px;
+   border: 5px solid white;
+   border-radius: 7px;
+   margin: 0 auto; 
+}
+
+#gift-img-happy:hover {
+   background-image: url("https://media.giphy.com/media/TgKEjjz1lzjmEsuz80/giphy-downsized-large.gif"); 
+}
+
+#gift-img-hot:hover {
+   background-image: url("https://media.giphy.com/media/dCEVp5itY2e4USMG3V/giphy.gif"); 
+}
+
+#gift-img-genius:hover {
+   background-image: url("https://media.giphy.com/media/1qhGTMtibpfEn1ka6k/giphy.gif");
+}
+
+#gift-img-badass:hover {
+   background-image: url("https://media.giphy.com/media/cfuL5gqFDreXxkWQ4o/giphy.gif"); 
+}
+
+#gift-img-cheers {
+   height: 200px;
+}
+
+#gift-img-cheers:hover {
+   background-image: url("https://media.giphy.com/media/tv7AqL12COlFjekWMO/giphy.gif"); 
+}
+
+#footer {
+   font-style: italic;
+   width: 400px;
+   margin: 40px auto 20px;
+}
+
+a {
+   color: white;
+}
